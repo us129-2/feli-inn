@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Contacto | FELIZ INNOVATION</title>
-  
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet"/>
   <style>
     body {
@@ -41,34 +40,36 @@
       font-family: 'Playfair Display', serif;
       font-size: 3rem;
       text-align: center;
-      color: #004085;
+      color: #000000;
       margin-bottom: 2rem;
     }
     .content {
-      text-align: justify;
+      text-align: center;
     }
-    .content img {
-      display: block;
-      margin: 2rem auto;
-      max-width: 100%;
+    .content p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .mapa {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 400px;
+      border: none;
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .content h2 {
-      font-size: 2rem;
-      color: #007bff;
-      text-align: center;
-      margin-top: 2rem;
     }
     footer {
       text-align: center;
       color: #ccc;
     }
   </style>
-
 </head>
 <body>
-
 <header>
   <div class="logo">FELIZ INNOVATION</div>
   <nav>
@@ -76,24 +77,22 @@
     <a href="empresa.html">Nuestra Empresa</a>
     <a href="mecanizados.html">Mecanizados</a>
     <a href="ingenieria.html">Ingeniería</a>
-    <a href="contacto.html">Contacto</a>
+    <a href="contacto.html" class="active">Contacto</a>
   </nav>
 </header>
-
 <main>
-
-    <h1>Contacto</h1>
-    <div class="content">
-      <p>Contáctanos en: <a href="mailto:contacto@felizinnovation.com">contacto@felizinnovation.com</a><br/>
-      Pachuca, Hidalgo<br/>
-      Síguenos en <a href="https://facebook.com" target="_blank">Facebook</a></p>
+  <h1>Contacto</h1>
+  <div class="content">
+    <p><strong>Email:</strong> <a href="mailto: feliz.innovation25@gmail.com>contacto@felizinnovation.com</a></p>
+    <p><strong>Ubicación:</strong> Calle 12 de Octubre, Esquina con 16 de Enero. Col. El Huixmi, Pachuca de Soto, Hgo, México</p>
+    <p><strong>Redes Sociales:</strong> <a href="https://www.facebook.com/share/1Hb2M56giB/?mibextid=wwXIfr">Facebook</a></p>
+    <div class="mapa">
+      <iframe src="https://www.google.com/maps?q=12%20de%20Octubre%20esquina%20con%2016%20de%20Enero,%20El%20Huixmi,%20Pachuca%20de%20Soto,%20Hidalgo,%20México&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    
+  </div>
 </main>
-
 <footer>
   © 2025 FELIZ INNOVATION R.L. DE C.V. | Pachuca, Hidalgo | contacto@felizinnovation.com
 </footer>
-
 </body>
 </html>
